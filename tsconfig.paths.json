@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@style/*": ["src/style/*"],
+      "@shared/*": ["src/components/shared/*"],
+      "@contexts/*": ["src/context/*"],
+      "@models/*": ["src/models/*"],
+      "@pages/*": ["src/pages/*"],
+      "@remote/*": ["src/remote/*"],
+      "@constants/*" : ["src/constants/*"]
+    }
+  }
+}
