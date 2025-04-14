@@ -7,6 +7,7 @@ interface ListRowProps {
   right?: React.ReactNode
   content?: React.ReactNode
   withArrow?: boolean
+  as?: 'div' | 'li'
   onClick?: () => void
 }
 
@@ -16,9 +17,10 @@ export default function ListRow({
   withArrow,
   right,
   onClick,
+  as = 'li',
 }: ListRowProps) {
   return (
-    <Flex align={'center'} as={'li'} css={listRowContainer} onClick={onClick}>
+    <Flex align={'center'} as={as} css={listRowContainer} onClick={onClick}>
       <Flex css={listLeftStyle}>{left}</Flex>
       <Flex css={listRowContentStyle}>{content}</Flex>
       <Flex>{right}</Flex>

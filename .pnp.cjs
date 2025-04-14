@@ -49,10 +49,12 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-prettier", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:5.2.6"],\
           ["eslint-plugin-react", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:7.37.5"],\
           ["firebase", "npm:11.6.0"],\
+          ["framer-motion", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:12.6.5"],\
           ["lodash", "npm:4.17.21"],\
           ["prettier", "npm:3.5.3"],\
           ["react", "npm:19.1.0"],\
           ["react-dom", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:19.1.0"],\
+          ["react-infinite-scroll-component", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:6.1.0"],\
           ["react-query", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:3.39.3"],\
           ["react-router-dom", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:7.5.0"],\
           ["react-scripts", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:5.0.1"],\
@@ -11667,6 +11669,39 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["framer-motion", [\
+      ["npm:12.6.5", {\
+        "packageLocation": "../../../.yarn/berry/cache/framer-motion-npm-12.6.5-cd8f22b2f7-10c0.zip/node_modules/framer-motion/",\
+        "packageDependencies": [\
+          ["framer-motion", "npm:12.6.5"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:12.6.5", {\
+        "packageLocation": "./.yarn/__virtual__/framer-motion-virtual-67cbb7cf4f/4/.yarn/berry/cache/framer-motion-npm-12.6.5-cd8f22b2f7-10c0.zip/node_modules/framer-motion/",\
+        "packageDependencies": [\
+          ["@emotion/is-prop-valid", null],\
+          ["@types/emotion__is-prop-valid", null],\
+          ["@types/react", "npm:19.1.0"],\
+          ["@types/react-dom", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:19.1.1"],\
+          ["framer-motion", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:12.6.5"],\
+          ["motion-dom", "npm:12.6.5"],\
+          ["motion-utils", "npm:12.6.5"],\
+          ["react", "npm:19.1.0"],\
+          ["react-dom", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:19.1.0"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "packagePeers": [\
+          "@emotion/is-prop-valid",\
+          "@types/emotion__is-prop-valid",\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["fresh", [\
       ["npm:0.5.2", {\
         "packageLocation": "../../../.yarn/berry/cache/fresh-npm-0.5.2-ad2bb4c0a2-10c0.zip/node_modules/fresh/",\
@@ -14796,6 +14831,25 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["motion-dom", [\
+      ["npm:12.6.5", {\
+        "packageLocation": "../../../.yarn/berry/cache/motion-dom-npm-12.6.5-cab4f6145b-10c0.zip/node_modules/motion-dom/",\
+        "packageDependencies": [\
+          ["motion-dom", "npm:12.6.5"],\
+          ["motion-utils", "npm:12.6.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["motion-utils", [\
+      ["npm:12.6.5", {\
+        "packageLocation": "../../../.yarn/berry/cache/motion-utils-npm-12.6.5-8ca9e6a344-10c0.zip/node_modules/motion-utils/",\
+        "packageDependencies": [\
+          ["motion-utils", "npm:12.6.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ms", [\
       ["npm:2.0.0", {\
         "packageLocation": "../../../.yarn/berry/cache/ms-npm-2.0.0-9e1101a471-10c0.zip/node_modules/ms/",\
@@ -17673,6 +17727,29 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-infinite-scroll-component", [\
+      ["npm:6.1.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/react-infinite-scroll-component-npm-6.1.0-fc628f1f18-10c0.zip/node_modules/react-infinite-scroll-component/",\
+        "packageDependencies": [\
+          ["react-infinite-scroll-component", "npm:6.1.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:6.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-infinite-scroll-component-virtual-5abea905d3/4/.yarn/berry/cache/react-infinite-scroll-component-npm-6.1.0-fc628f1f18-10c0.zip/node_modules/react-infinite-scroll-component/",\
+        "packageDependencies": [\
+          ["@types/react", "npm:19.1.0"],\
+          ["react", "npm:19.1.0"],\
+          ["react-infinite-scroll-component", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:6.1.0"],\
+          ["throttle-debounce", "npm:2.3.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-is", [\
       ["npm:16.13.1", {\
         "packageLocation": "../../../.yarn/berry/cache/react-is-npm-16.13.1-a9b9382b4f-10c0.zip/node_modules/react-is/",\
@@ -19703,6 +19780,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["throttle-debounce", [\
+      ["npm:2.3.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/throttle-debounce-npm-2.3.0-0e354dff02-10c0.zip/node_modules/throttle-debounce/",\
+        "packageDependencies": [\
+          ["throttle-debounce", "npm:2.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["thunky", [\
       ["npm:1.1.0", {\
         "packageLocation": "../../../.yarn/berry/cache/thunky-npm-1.1.0-2d25531f44-10c0.zip/node_modules/thunky/",\
@@ -20263,10 +20349,12 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-prettier", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:5.2.6"],\
           ["eslint-plugin-react", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:7.37.5"],\
           ["firebase", "npm:11.6.0"],\
+          ["framer-motion", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:12.6.5"],\
           ["lodash", "npm:4.17.21"],\
           ["prettier", "npm:3.5.3"],\
           ["react", "npm:19.1.0"],\
           ["react-dom", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:19.1.0"],\
+          ["react-infinite-scroll-component", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:6.1.0"],\
           ["react-query", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:3.39.3"],\
           ["react-router-dom", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:7.5.0"],\
           ["react-scripts", "virtual:67666bd7d50dd69a61f5cfb2ace62d2087f5fb9c2afd4d947ad518ae3763d4cf5cb92838a371aea22cceb405cb43e449961f6be364d84e01e086297ec5af678f#npm:5.0.1"],\

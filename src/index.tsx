@@ -7,7 +7,7 @@ import globalStyles from '@style/globalStyles'
 import { AlertProvider } from './contexts/AlertContext'
 import { QueryClient, QueryClientProvider } from 'react-query'
 
-const queryClient = new QueryClient()
+const queryClient = new QueryClient({ defaultOptions: {} })
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
