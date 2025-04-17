@@ -6,8 +6,6 @@ interface TextFieldProps extends InputHTMLAttributes<HTMLInputElement> {
   label?: React.ReactNode
   hasError?: boolean
   helpMessage?: React.ReactNode
-  onFocus?: FocusEventHandler
-  onBlur?: FocusEventHandler
   ref?: React.Ref<HTMLInputElement>
 }
 
@@ -37,7 +35,7 @@ const TextField = ({
       {label ? (
         <Text
           display={'inline-block'}
-          typography="t7"
+          typography="t5"
           style={{ marginBottom: 12 }}
           color={labelColor}
           textAlign={'start'}
